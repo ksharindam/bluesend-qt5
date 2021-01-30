@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BlueSend
+Comment=Send files via Bluetooth
+Exec=bluesend %F
+Icon=preferences-system-bluetooth
+#Categories= System;
+Terminal=false
+StartupNotify=false

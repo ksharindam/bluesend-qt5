@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Action
+Name=Bluetooth
+Tooltip=Bluetooth
+Profiles=default-profile;
+Icon=preferences-system-bluetooth
+Hidden=false
+
+[X-Action-Profile default-profile]
+Name=Default profile
+MimeTypes=all/allfiles;!inode/directory;
+Exec=bluesend %F
