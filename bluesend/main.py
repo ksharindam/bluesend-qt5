@@ -146,6 +146,7 @@ class Window(QMainWindow):
     def __init__(self, filenames):
         QMainWindow.__init__(self)
         self.setupUi()
+        self.setWindowIcon(QIcon(':/bluesend.png'))
         self.completed_size = 0 # total size of the finished files
         self.allfiles_size = 0 # total size of all files selected
         self.transfer_path = None

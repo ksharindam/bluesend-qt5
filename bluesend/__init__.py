@@ -3,10 +3,10 @@ Name = BlueSend
 Executable Command = bluesend
 Package Name = bluesend
 Python Module Name = bluesend
-Debian Dependency = python3-pyqt5
+Debian Dependency = python3-pyqt5, bluez-obexd
 Description = 'Send files via Bluetooth'
 Changes :
-
+v0.2    added : window icon
 
 ............................................................................
 |   Copyright (C) 2021 Arindam Chaudhuri <ksharindam@gmail.com>            |
@@ -27,4 +27,4 @@ Changes :
 """
 # TODO:
 
-__version__ = '0.1'
+__version__ = '0.2'
